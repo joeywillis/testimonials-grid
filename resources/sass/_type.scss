@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap');
+
+//Font
+
+$font-stack: 'Barlow Semi Condensed', sans-serif;
+
+h2 {
+  color: $white;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 18px 0 16px 0;
+  position: relative;
+  z-index: 2;
+}
+
+h3 {
+  color: $white;
+}
+
+p {
+  color: $light-gray;
+  line-height: 18px;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: .75;
+}
+
+.testimonial-3,
+.testimonial-5{
+  h2,
+  h3,
+  p {
+    color: $dark-gray;
+  }
+}
